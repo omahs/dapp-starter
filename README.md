@@ -122,7 +122,7 @@ OpenZeppelin provides tooling for deploying and securing [upgradeable smart cont
 
 Smart contracts deployed using OpenZeppelin Upgrades Plugins can be upgraded to modify their code, while preserving their address, state, and balance. This allows you to iteratively add new features to your project, or fix any bugs you may find in production.
 
-In this project, there are a 2 versions of contract: Box and BoxV2 which is improvement of Box. First deploy your contract:
+In this project, there are 2 versions of contract: Box and BoxV2 which is improvement of Box. First deploy your contract:
 
 ```shell
 npx hardhat run --network localhost scripts/deploy_upgradeable_box.ts
